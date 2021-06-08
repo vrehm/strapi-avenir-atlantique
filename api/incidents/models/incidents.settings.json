@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "incidents",
+  "info": {
+    "name": "incidents"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    },
+    "mechanical_part": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "pending",
+        "to_do",
+        "resolved"
+      ]
+    },
+    "bus": {
+      "via": "incidents",
+      "model": "buses"
+    }
+  }
+}
