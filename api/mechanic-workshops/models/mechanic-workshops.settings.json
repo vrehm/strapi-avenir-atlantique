@@ -13,8 +13,8 @@
   "pluginOptions": {},
   "attributes": {
     "mechanics": {
-      "collection": "mechanics",
-      "via": "mechanic_workshop"
+      "via": "mechanic_workshop",
+      "collection": "mechanics"
     },
     "address": {
       "type": "string"

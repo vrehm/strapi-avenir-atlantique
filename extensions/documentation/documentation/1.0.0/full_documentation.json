@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "06/10/2021 5:04:02 PM"
+    "x-generation-date": "06/10/2021 5:07:20 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -6441,9 +6441,6 @@
                 "bus": {
                   "type": "string"
                 },
-                "published_at": {
-                  "type": "string"
-                },
                 "created_by": {
                   "type": "string"
                 },
@@ -6484,9 +6481,6 @@
                   "type": "integer"
                 },
                 "bus": {
-                  "type": "string"
-                },
-                "published_at": {
                   "type": "string"
                 },
                 "created_by": {
@@ -6532,9 +6526,6 @@
                 "driver": {
                   "type": "string"
                 },
-                "published_at": {
-                  "type": "string"
-                },
                 "created_by": {
                   "type": "string"
                 },
@@ -6543,10 +6534,6 @@
                 }
               }
             }
-          },
-          "published_at": {
-            "type": "string",
-            "format": "date-time"
           }
         }
       },
@@ -6584,10 +6571,6 @@
             "items": {
               "type": "string"
             }
-          },
-          "published_at": {
-            "type": "string",
-            "format": "date-time"
           },
           "created_by": {
             "type": "string"
@@ -6707,9 +6690,6 @@
                 "driver": {
                   "type": "string"
                 },
-                "published_at": {
-                  "type": "string"
-                },
                 "created_by": {
                   "type": "string"
                 },
@@ -6718,10 +6698,6 @@
                 }
               }
             }
-          },
-          "published_at": {
-            "type": "string",
-            "format": "date-time"
           }
         }
       },
@@ -6735,10 +6711,6 @@
             "items": {
               "type": "string"
             }
-          },
-          "published_at": {
-            "type": "string",
-            "format": "date-time"
           },
           "created_by": {
             "type": "string"
@@ -6815,9 +6787,6 @@
                   "type": "string"
                 }
               },
-              "published_at": {
-                "type": "string"
-              },
               "created_by": {
                 "type": "string"
               },
@@ -6825,10 +6794,6 @@
                 "type": "string"
               }
             }
-          },
-          "published_at": {
-            "type": "string",
-            "format": "date-time"
           }
         }
       },
@@ -6854,10 +6819,6 @@
           },
           "bus": {
             "type": "string"
-          },
-          "published_at": {
-            "type": "string",
-            "format": "date-time"
           },
           "created_by": {
             "type": "string"
@@ -6887,9 +6848,6 @@
                 "type": "string"
               },
               "mechanic_workshop": {
-                "type": "string"
-              },
-              "published_at": {
                 "type": "string"
               },
               "created_by": {
@@ -6984,9 +6942,6 @@
                   "type": "string"
                 }
               },
-              "published_at": {
-                "type": "string"
-              },
               "created_by": {
                 "type": "string"
               },
@@ -6994,10 +6949,6 @@
                 "type": "string"
               }
             }
-          },
-          "published_at": {
-            "type": "string",
-            "format": "date-time"
           }
         }
       },
@@ -7026,10 +6977,6 @@
           },
           "bus": {
             "type": "string"
-          },
-          "published_at": {
-            "type": "string",
-            "format": "date-time"
           },
           "created_by": {
             "type": "string"
@@ -7061,9 +7008,6 @@
                   "type": "string"
                 },
                 "mechanic_workshop": {
-                  "type": "string"
-                },
-                "published_at": {
                   "type": "string"
                 },
                 "created_by": {
@@ -7208,10 +7152,6 @@
                 "type": "string"
               }
             }
-          },
-          "published_at": {
-            "type": "string",
-            "format": "date-time"
           }
         }
       },
@@ -7222,10 +7162,6 @@
           },
           "mechanic_workshop": {
             "type": "string"
-          },
-          "published_at": {
-            "type": "string",
-            "format": "date-time"
           },
           "created_by": {
             "type": "string"
@@ -7310,10 +7246,6 @@
                 "type": "string"
               }
             }
-          },
-          "published_at": {
-            "type": "string",
-            "format": "date-time"
           }
         }
       },
@@ -7321,10 +7253,6 @@
         "properties": {
           "users_permissions_user": {
             "type": "string"
-          },
-          "published_at": {
-            "type": "string",
-            "format": "date-time"
           },
           "created_by": {
             "type": "string"
@@ -7383,9 +7311,6 @@
                   "type": "string"
                 }
               },
-              "published_at": {
-                "type": "string"
-              },
               "created_by": {
                 "type": "string"
               },
@@ -7430,9 +7355,6 @@
                   "type": "string"
                 }
               },
-              "published_at": {
-                "type": "string"
-              },
               "created_by": {
                 "type": "string"
               },
@@ -7440,10 +7362,6 @@
                 "type": "string"
               }
             }
-          },
-          "published_at": {
-            "type": "string",
-            "format": "date-time"
           }
         }
       },
@@ -7473,10 +7391,6 @@
           },
           "driver": {
             "type": "string"
-          },
-          "published_at": {
-            "type": "string",
-            "format": "date-time"
           },
           "created_by": {
             "type": "string"
@@ -7746,9 +7660,6 @@
               "users_permissions_user": {
                 "type": "string"
               },
-              "published_at": {
-                "type": "string"
-              },
               "created_by": {
                 "type": "string"
               },
@@ -7774,9 +7685,6 @@
                   "type": "string"
                 }
               },
-              "published_at": {
-                "type": "string"
-              },
               "created_by": {
                 "type": "string"
               },
@@ -7797,9 +7705,6 @@
                 "type": "string"
               },
               "mechanic_workshop": {
-                "type": "string"
-              },
-              "published_at": {
                 "type": "string"
               },
               "created_by": {

@@ -2,12 +2,13 @@
   "kind": "collectionType",
   "collectionName": "incidents",
   "info": {
-    "name": "incidents"
+    "name": "incidents",
+    "description": ""
   },
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {

@@ -8,7 +8,7 @@
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
@@ -28,12 +28,12 @@
       "type": "boolean"
     },
     "incidents": {
-      "collection": "incidents",
-      "via": "bus"
+      "via": "bus",
+      "collection": "incidents"
     },
     "interventions": {
-      "collection": "interventions",
-      "via": "bus"
+      "via": "bus",
+      "collection": "interventions"
     },
     "shifts": {
       "via": "bus",

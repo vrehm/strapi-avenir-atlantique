@@ -1276,9 +1276,6 @@
               "users_permissions_user": {
                 "type": "string"
               },
-              "published_at": {
-                "type": "string"
-              },
               "created_by": {
                 "type": "string"
               },
@@ -1304,9 +1301,6 @@
                   "type": "string"
                 }
               },
-              "published_at": {
-                "type": "string"
-              },
               "created_by": {
                 "type": "string"
               },
@@ -1327,9 +1321,6 @@
                 "type": "string"
               },
               "mechanic_workshop": {
-                "type": "string"
-              },
-              "published_at": {
                 "type": "string"
               },
               "created_by": {

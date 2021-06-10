@@ -2,18 +2,19 @@
   "kind": "collectionType",
   "collectionName": "shifts",
   "info": {
-    "name": "shifts"
+    "name": "shifts",
+    "description": ""
   },
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
     "bus": {
-      "model": "buses",
-      "via": "shifts"
+      "via": "shifts",
+      "model": "buses"
     },
     "shift_start": {
       "type": "time"
